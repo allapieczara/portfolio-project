@@ -2,12 +2,13 @@
   --branding-color: rgb(250, 159, 68);
   --heading-font-family: "Abril Fatface", cursive;
   --default-font-family: "Roboto", sans-serif;
-  --background-color: rgb(234, 231, 252);
+  --background-color: rgb(235, 252, 231);
 }
 
 h1 {
   font-family: var(--heading-font-family);
   font-size: 96px;
+  line-height: 1.5;
 }
 
 /*font-family: 'Abril Fatface', cursive;
@@ -40,4 +41,67 @@ font-family: 'Yeseva One', cursive; */
   color: white;
   font-size: 27px;
   padding: 15px 30px;
+}
+
+.projects .title {
+  font-family: var(--default-font-family);
+  font-size: 25px;
+  font-weight: 400;
+  color: rgb(59, 58, 58);
+  line-height: 2;
+  text-align: center;
+}
+
+.projects h2 {
+  font-family: var(--heading-font-family);
+  font-size: 48px;
+}
+
+.projects p {
+  font-size: 16px;
+  opacity: 0.7;
+}
+
+.projects .btn-branding {
+  background: white;
+  border-radius: 4px;
+  color: var(--branding-color);
+  border: 2px solid var(--branding-color);
+  font-size: 27px;
+  padding: 15px 30px;
+}
+
+.projects img {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.project-description {
+  padding: 120px 60px;
+}
+
+@media (max-width: 960px) {
+  h1 {
+    font-size: 50px;
+    line-height: 2;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .projects h2 {
+    font-size: 40px;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+
+  .hero h2 {
+    font-size: 20px;
+  }
 }
