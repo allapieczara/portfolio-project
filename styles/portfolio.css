@@ -45,7 +45,7 @@ nav a {
 }
 
 nav a:hover,
-nav li.active a,
+nav ul li.active a,
 .email-link:hover {
   color: var(--branding-color);
 }
@@ -53,7 +53,7 @@ nav li.active a,
 .hero {
   background: var(--background-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -118,7 +118,7 @@ nav li.active a,
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .content-container h1 {
@@ -165,6 +165,10 @@ nav li.active a,
 
 .content-container img {
   border-radius: 10px;
+}
+
+.content-container p {
+  font-size: 18px;
 }
 
 footer {
@@ -220,7 +224,7 @@ footer .social-links a:hover {
   }
 
   .hero {
-    padding: 80px 20px;
+    padding: 70px 20px;
   }
 
   .projects h2 {
