@@ -82,6 +82,36 @@ font-family: 'Yeseva One', cursive; */
   padding: 120px 60px;
 }
 
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.about-section .btn-branding {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 27px;
+  padding: 15px 30px;
+}
+
+.about-content {
+  margin: 30px;
+}
+
+.about-section img {
+  border-radius: 10px;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 50px;
@@ -103,5 +133,10 @@ font-family: 'Yeseva One', cursive; */
 
   .hero h2 {
     font-size: 20px;
+  }
+
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 }
